@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+In this project. I used a big dataset I scraped before of a few thousand perfume links for their characteristics, like perfume name, designer, fragrance family, main accords, average vote, people's opinions and willingness to purchase, in numbers. etc. 
+My goal is two fold, 
+a. to create a predictive model for the perfumes that didn't have an average vote, 
+b. to give insight and business recommendations to designers on perfumes that sell and are well received globally. 
+I have a previous repository named "recommender_system". I used the same collected data, but I used the reviews of a 500 perfumes, instead of the almost 5000 I have, for quicker handling and showcase. 
 
-You can use the [editor on GitHub](https://github.com/hayatoumy/perfume_analysis/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hayatoumy/perfume_analysis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I stard with cleaning and preparing the data frame, in the notbook called `perfume_chars_preparation.ipynb`
+The primitive collection of data is in a separate folder named `from_scratch`. 
+The analysis in the notebook called `perfume_chars_analysis.ipynb`

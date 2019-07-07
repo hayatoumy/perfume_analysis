@@ -4,8 +4,8 @@ My goal is two fold,
 a. to create a predictive model for the perfumes that didn't have an average vote, 
 b. to give insight and business recommendations to designers on perfumes that sell and are well received globally. 
 
-**Data**
-I have a previous repository named "recommender_system". In there, I used the reviews for 500 of the perfumes instead of the whole $\approx 5000$ of them for quicker handling and showcase. Here, I use the characteristics of the $\approx 5000$ perfumes.
+**Data** <br />
+I have a previous repository named "recommender_system". In there, I used the reviews for 500 of the perfumes instead of the whole ~5000 of them for quicker handling and showcase. Here, I use the characteristics of the ~5000 perfumes.
 
 ## Technical details
 I stard with cleaning and preparing the data frame, in the notbook called `perfume_chars_preparation.ipynb`
